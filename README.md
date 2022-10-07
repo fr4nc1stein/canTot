@@ -1,6 +1,6 @@
 # canTot
 
-canTot is a python-based cli framework based on sploitkit and is easy to use because it similar to working with Metasploit. This similar to an exploit framework but focused on known CAN Bus vulnerabilities or fun CAN Bus hacks. It can also be used as a guide for pentesting vehicles and learning python for Car Hacking the easier way. This is not to reinvent the wheel of known CAN fuzzers, car exploration tools like caring caribou, or other great CAN analyzers out there. But to combine all the known vulnerabilities and fun CAN bus hacks in automotive security.
+canTot is a python-based cli framework based on sploitkit and is easy to use because it is similar to working with Metasploit. This similar to an exploit framework but focused on known CAN Bus vulnerabilities or fun CAN Bus hacks. It can also be used as a guide for pentesting vehicles and learning python for Car Hacking the easier way. This is not to reinvent the wheel of known CAN fuzzers, car exploration tools like caring caribou, or other great CAN analyzers out there. But to combine all the known vulnerabilities and fun CAN bus hacks in automotive security.
 
 # Installation
 
@@ -9,6 +9,7 @@ git clone https://github.com/shipcod3/canTot
 cd canTot
 pip3 install -r requirements.txt
 ```
+Note: Works better with Kali and Ubuntu
 
 # Sample framework usage:
 
@@ -88,6 +89,9 @@ Press Ctrl+C to stop or cancel
 ## Author
 Jay Turla
 
+## If you love canTot you can buy me a coffee to support this project :)
+ <a href="https://www.buymeacoffee.com/shipcod3" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+
 ## Contributors
 - To be updated
 
@@ -98,5 +102,7 @@ Jay Turla
 - Car Hacking Village
 - Eric Evenchick for pyvit
 - Alexandre D'Hondt for sploitkit
-- Will Caruana for canfuzz_sids.py inspiration
+- carfucar for canfuzz_sids.py inspiration
 - Craig Smith for the Car Hacker's Handbook and hwbridge inspiration
+- ps1337's udsSecAccess.py for scanning UDS services using Security Access
+- Keen Security Lab of Tencent for their Tesla hacks
